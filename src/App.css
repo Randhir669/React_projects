@@ -1,38 +1,98 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.weatherbg{
+  background: url('./images/Default.jpg');
+  height:100vh;
+  display:flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  flex-direction:column;
+}
+
+.Haze{
+  background: url('./images/haze.jpg');
+  height:100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+}
+
+.Clouds{
+  background: url('./images/Cloudy.jpg');
+  height:100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+}
+
+.Rain{
+  background: url('./images/Rain.jpg');
+  height:100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+}
+
+.Thunderstorm{
+  background: url('./images/Thunder.jpg');
+  height:100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+
+}
+
+.textcolor{
   color: white;
+  font-weight: 700;
 }
 
-.App-link {
-  color: #61dafb;
+.searchweather{
+  background: url('./images/Default.jpg');
+  height:75vh;
+ 
+}
+.tempretaure{
+  color: white;
+  font-weight: 500;
+  font-size: 25px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.city{
+  color: white;
+  font-weight: 400;
+  font-size: 15px;
+
 }
+
+.align{
+  justify-content: center;
+  display:inline-grid;
+}
+
+.weatherdesc{
+  
+  justify-content: center;
+  display:inline-grid;
+  color: white;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.icons{
+ 
+    font-size: 30px;
+    color: #08eeee;
+    cursor: pointer;
+    
+}
+
+
+
+
+
