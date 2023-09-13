@@ -84,7 +84,7 @@ function App() {
           let district = components.county || components.state_district;
           console.log(`District: ${district}`);
           district = district.split(' ')[0]
-          getweatherinfo(district);
+         // getweatherinfo(district);
           setcity(district)         
         } else {
           console.error('Location not found.');
